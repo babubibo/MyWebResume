@@ -1,0 +1,164 @@
+html, body {
+	background-image:url( 'https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-blue-technology-sense-shop-details-page-design-psd-layered-main-map-image_136759.jpg' );
+	height: 100%;
+	box-sizing: border-box;
+}
+div{
+	display: block;
+}
+.header{
+	width: 100%;
+	background: black;
+	color: white;
+	top: 0;
+    left: 0;
+	font-size: 1rem;
+    line-height: 25px;
+    height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header nav{
+	z-index: 999999;
+    position: fixed;
+    width: 100%;
+    line-height: 1px;
+	transition: 1s;
+	font-size: 30px;
+}
+#header ul li{	
+	list-style-type: none;
+	float: left;
+	margin-right: 100px;
+	margin-top: 1px;
+	display: block;
+}
+.shape{   
+    display: inline-block; 
+    position: relative;
+    transition: all .3s linear;
+}
+.shape:hover{
+    color: #FFFF37;
+}
+.header_content{
+	width: 95%;
+	padding: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	position: relative;
+}
+.logo_text{
+	display: block;
+	position: relative;
+	left: 0%
+}
+.about_text{
+	display: block;
+	position: absolute;
+	right: 30%;
+	margin-right: 1px;
+}
+.hobby_text{
+	display: block;
+	position: absolute;
+	right: 20%;
+	margin-right: 1px;
+}
+.contact_text{
+	display: block;
+	position: absolute;
+	right: 10%;
+	margin-right: 1px;
+}
+#MyPhoto img{
+	position: absolute;
+	top: 135px;
+	left: 550px;
+	margin: 10px auto;
+	border-radius: 50%;
+}
+.wrap{
+	min-height: 100%;
+}
+.content1{
+	width: 850px;
+	padding: 1px;
+	margin-top: 45px;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	height: 700px;
+	background: #f0f0f0;
+	color: purple;	
+}
+#animal img{
+	position: relative;
+	top: 1px;
+	left: 220px;
+	border-color: #FFE6D9;
+	border-style: groove;
+	border-width: 7px;
+}
+.content2{
+	width: 850px;
+	padding: 1px;
+	font-size: 20px;
+	margin-bottom: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+	background: #f0f0f0;
+	color: purple;
+}
+.About{
+	display: block;
+	position: relative;
+	left: 5%;
+}
+.Hobby{
+	display: block;
+	position: relative;
+	left: 5%;
+}
+#guitar img{
+	position: absolute;
+	left: 520px;
+	margin: 10px auto;
+}
+#piano img{
+	position: absolute;
+	left: 620px;
+	margin: 10px auto;
+}
+#inse img{
+	position: absolute;
+	left: 490px;
+	margin: 10px auto;
+}
+.footer{
+	margin-top: -250px;
+	height: 250px;
+	background: #fff;
+	color: #1d1d1d;
+	font-size: 24px;
+}
+.contact{
+	padding: 1px;
+	width: 950px;	
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+}
+.contact_box{
+	display: block;
+	position: relative;
+	left: 5%;
+}
+
+
+
+
+
