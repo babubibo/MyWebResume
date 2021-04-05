@@ -10,18 +10,18 @@ div{
 	background: #1d1d1d;
 	color: #fff;
 	top: 0;
-    left: 0;
+	left: 0;
 	font-size: 1rem;
-    line-height: 25px;
-    height: 60px;
+	line-height: 25px;
+	height: 60px;
 	margin-left: auto;
 	margin-right: auto;
 }
 #header nav{
 	z-index: 999999;
-    position: fixed;
-    width: 100%;
-    line-height: 1px;
+	position: fixed;
+	width: 100%;
+	line-height: 1px;
 	transition: 1s;
 	font-size: 30px;
 } /*header浮動*/
@@ -33,12 +33,12 @@ div{
 	display: block;
 }
 .shape{   
-    display: inline-block; 
-    position: relative;
-    transition: all .3s linear;
+	display: inline-block; 
+	position: relative;
+	transition: all .3s linear;
 } /*header字體動畫*/
 .shape:hover{
-    color: #FFFF37;
+	color: #FFFF37;
 } /*動畫顏色*/
 .header_content{
 	width: 95%;
