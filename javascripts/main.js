@@ -5,11 +5,11 @@ function alertFunction(){
 //------------------------------------------------------------------------------------------
 var slideShowSpeed = 2000;
 var Pic = new Array();
-	Pic[0] = 'https://i.ibb.co/bX5psXk/RP1.jpg'
-	Pic[1] = 'https://i.ibb.co/kh3JHKy/RP2.jpg'
-	Pic[2] = 'https://i.ibb.co/Srj76yB/RP3.jpg'
-	Pic[3] = 'https://i.ibb.co/RzV73Sz/RP4.jpg'
-	Pic[4] = 'https://i.ibb.co/5B19jzb/RP5.jpg'
+	Pic[0] = 'images/RP1.jpg'
+	Pic[1] = 'images/RP2.jpg'
+	Pic[2] = 'images/RP3.jpg'
+	Pic[3] = 'images/RP4.jpg'
+	Pic[4] = 'images/RP5.jpg'
 var t;
 var j = 0;
 var p = Pic.length;
