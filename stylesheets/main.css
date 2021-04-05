@@ -1,5 +1,5 @@
-html, body {
-	background-image:url( 'https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-blue-technology-sense-shop-details-page-design-psd-layered-main-map-image_136759.jpg' );
+html, body{
+	background-image: url( 'https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-blue-technology-sense-shop-details-page-design-psd-layered-main-map-image_136759.jpg' );
 	height: 100%;
 	box-sizing: border-box;
 }
@@ -8,8 +8,8 @@ div{
 }
 .header{
 	width: 100%;
-	background: black;
-	color: white;
+	background: #1d1d1d;
+	color: #fff;
 	top: 0;
     left: 0;
 	font-size: 1rem;
@@ -25,7 +25,7 @@ div{
     line-height: 1px;
 	transition: 1s;
 	font-size: 30px;
-}
+} /*header浮動*/
 #header ul li{	
 	list-style-type: none;
 	float: left;
@@ -37,10 +37,10 @@ div{
     display: inline-block; 
     position: relative;
     transition: all .3s linear;
-}
+} /*header字體動畫*/
 .shape:hover{
     color: #FFFF37;
-}
+} /*動畫顏色*/
 .header_content{
 	width: 95%;
 	padding: 1px;
@@ -59,18 +59,21 @@ div{
 	position: absolute;
 	right: 30%;
 	margin-right: 1px;
+	font-size: 25px;
 }
 .hobby_text{
 	display: block;
 	position: absolute;
 	right: 20%;
 	margin-right: 1px;
+	font-size: 25px;
 }
 .contact_text{
 	display: block;
 	position: absolute;
-	right: 10%;
+	right: 7.5%;
 	margin-right: 1px;
+	font-size: 25px;
 }
 #MyPhoto img{
 	position: absolute;
@@ -89,10 +92,9 @@ div{
 	font-size: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	
 	height: 700px;
 	background: #f0f0f0;
-	color: purple;	
+	color: #003377;	
 }
 #animal img{
 	position: relative;
@@ -111,7 +113,7 @@ div{
 	margin-right: auto;
 	height: 800px;
 	background: #f0f0f0;
-	color: purple;
+	color: #003377;
 }
 .About{
 	display: block;
@@ -157,6 +159,20 @@ div{
 	position: relative;
 	left: 5%;
 }
+#clock{
+	display: block;
+	width: 150px;
+	color: #fff;
+	font: 1em sans-serif; 
+	background: #1d1d1d; 
+	font-size: 35px;
+	text-align: center;
+	margin-right: 1px;
+	position: absolute;
+	right: 45%;
+	top: 20%;
+} /*意義不明時鐘之造型*/
+
 
 
 
